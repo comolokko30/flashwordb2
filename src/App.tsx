@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { FlashcardData, Unit } from "./types";
-import Flashcard from "@/components/Flashcard";
-import UnitCard from "@/components/UnitCard";
-import Sidebar from "@/components/Sidebar";
+import { FlashcardData, Unit } from "@/types";
+import Flashcard from "@/components/Flashcard.tsx";
+import UnitCard from "@/components/UnitCard.tsx";
+import Sidebar from "@/components/Sidebar.tsx";
 import { Search, ChevronLeft, ArrowLeft, ArrowRight, Settings, Zap, Library } from "lucide-react";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input.tsx";
+import { Button } from "@/components/ui/button.tsx";
 import { INITIAL_UNITS, INITIAL_WORDS } from "./data";
 
 export default function App() {

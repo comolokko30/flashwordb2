@@ -5,8 +5,8 @@ import Flashcard from "./components/Flashcard";
 import UnitCard from "./components/UnitCard";
 import Sidebar from "./components/Sidebar";
 import { Search, ChevronLeft, ArrowLeft, ArrowRight, Settings, Zap, Library } from "lucide-react";
-import { Input } from "./components/ui/input";
-import { Button } from "./components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 import { INITIAL_UNITS, INITIAL_WORDS } from "./data";
 
 export default function App() {

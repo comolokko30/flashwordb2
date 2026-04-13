@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { FlashcardData } from "@/types";
-import { Button } from "@/components/ui/button.tsx";
-import { Badge } from "@/components/ui/badge.tsx";
+import { CustomButton as Button } from "@/components/ui/CustomButton";
+import { CustomBadge as Badge } from "@/components/ui/CustomBadge";
 import { Languages, Volume2, RotateCw } from "lucide-react";
 
 interface FlashcardProps {

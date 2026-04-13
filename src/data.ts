@@ -1,4 +1,4 @@
-import { Unit, FlashcardData } from "./types";
+import { Unit, FlashcardData } from "@/types";
 
 export const INITIAL_UNITS: Unit[] = [
   { id: "unit-1", name: "Unit 1", description: "Academic and daily vocabulary - Part 1", color: "from-violet-600 to-indigo-700" },

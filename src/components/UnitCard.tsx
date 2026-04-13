@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Unit } from "../types";
+import { Unit } from "@/types";
 import { Book, Languages, MessageSquare, Briefcase, Utensils, Plane, Code, GraduationCap } from "lucide-react";
 
 interface UnitCardProps {

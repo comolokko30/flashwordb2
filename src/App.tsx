@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { FlashcardData, Unit } from "./types";
-import Flashcard from "./components/Flashcard";
-import UnitCard from "./components/UnitCard";
-import Sidebar from "./components/Sidebar";
+import Flashcard from "@/components/Flashcard";
+import UnitCard from "@/components/UnitCard";
+import Sidebar from "@/components/Sidebar";
 import { Search, ChevronLeft, ArrowLeft, ArrowRight, Settings, Zap, Library } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
